@@ -109,7 +109,7 @@ class MagentoContext extends RawMinkContext implements MagentoAwareInterface
      * @Given /^(?:|I )am on "(?P<page>[^"]+)"$/
      * @When /^(?:|I )go to "(?P<page>[^"]+)"$/
      */
-    public function iAmOn($page)
+/*    public function iAmOn($page)
     {
         $urlModel = new \Mage_Core_Model_Url();
         $m = explode('/', ltrim($page, '/'));
@@ -140,7 +140,7 @@ CONF;
                 )
             );
         }
-    }
+    }*/
 
     /**
      * @When /^I set config value for "([^"]*)" to "([^"]*)" in "([^"]*)" scope$/
